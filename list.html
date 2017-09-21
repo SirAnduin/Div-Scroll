@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/list.css" />
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</head>
+	<body>
+		<!--顶部导航栏-->
+		<header class="mui-bar mui-bar-nav head">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="#"></a>
+		    <h1 class="mui-title">摊位列表</h1>
+		</header>
+		<!--已收费/未收费-->
+		<div class="statusChangeDiv">
+			<a href="#" class="statusChangeBtn">
+				<span class="statusChangeWord">已收费</span>
+			</a>
+			<a href="#" class="statusChangeBtn">
+				<span class="statusChangeWord">未收费</span>
+			</a>
+		</div>
+		<!--查询栏-->
+		<div>
+			<form action="" method="post">
+				<div id="searchInputDiv">
+					<input type="text" placeholder="请输入查询内容"/>
+				</div>
+				<div id="searchSubmit">
+					<span>查询</span>
+				</div>					
+			</form>				
+		</div>
+		<!--查询结果列表div
+			仅此div滑动，其余不动
+		-->
+		<div class="resultDiv">
+			<table>
+				<thead>
+					<tr>
+						<th>摊位区号</th>
+						<th>是否收费</th>
+						<th>最新收费</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>测试1</td>
+						<td>未收费</td>
+						<td>--</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试2</td>
+						<td>已收费</td>
+						<td>2017-09-12</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试1</td>
+						<td>未收费</td>
+						<td>--</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试2</td>
+						<td>已收费</td>
+						<td>2017-09-12</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试1</td>
+						<td>未收费</td>
+						<td>--</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试2</td>
+						<td>已收费</td>
+						<td>2017-09-12</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试1</td>
+						<td>未收费</td>
+						<td>--</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试2</td>
+						<td>已收费</td>
+						<td>2017-09-12</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试1</td>
+						<td>未收费</td>
+						<td>--</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试2</td>
+						<td>已收费</td>
+						<td>2017-09-12</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试1</td>
+						<td>未收费</td>
+						<td>--</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试2</td>
+						<td>已收费</td>
+						<td>2017-09-12</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试1</td>
+						<td>未收费</td>
+						<td>--</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试2</td>
+						<td>已收费</td>
+						<td>2017-09-12</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试1</td>
+						<td>未收费</td>
+						<td>--</td>
+						<td>收费</td>
+					</tr>
+					<tr>
+						<td>测试2</td>
+						<td>已收费</td>
+						<td>2017-09-12</td>
+						<td>收费</td>
+					</tr>
+				</tbody>
+			</table>			
+		</div>
+		<a class="checkMore">
+			<span>查看更多>&nbsp;></span>
+		</a>
+
+		<!--底部导航栏-->
+		<div class="mui-segmented-control mui-btn-border footNaviDiv">
+		    <a class="mui-control-item mui-active" href="#">摊位列表</a>
+		    <a class="mui-control-item" href="index.html">会员中心</a>	    
+		</div>
+	</body>
+
+</html>

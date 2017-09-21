@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/marketDetail.css" />
+		<script src="js/mui.min.js"></script>
+	</head>
+	<body>
+		<!--顶部导航栏-->
+		<header class="mui-bar mui-bar-nav head">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="#"></a>
+		    <h1 class="mui-title">摊位信息</h1>
+		</header>
+		<div class="mui-content">
+			<!--摊位号和金额输入框-->
+		    <div class="detail">
+		    	<!--摊位号-->
+		    	<div>
+		    		<div class="detailLabel">
+			    		摊位号
+			    	</div>
+			    	<div  class="detailInput">
+			    		<input type="text" placeholder="请输入摊位号">
+			    	</div>
+		    	</div>
+		    	<!--金额输入框-->
+		        <div>
+		    		<div class="detailLabel">
+			    		金额
+			    	</div>
+			    	<div  class="detailInput">
+			    		<input type="number" placeholder="请输入金额">
+			    	</div>
+		    	</div>
+		    </div>
+		    
+		    <!--上传身份证-->
+		    <!--上传正面-->
+		    <div class="uploadIDCardDiv1">
+		    	<div  class="uploadIDCardDiv2">
+		    		<span>身份证正面</span>		    		
+		    	</div>
+				<input type="file" class="uploadIDCardInput"/>
+		    </div>
+			<!--上传反面-->
+		    <div class="uploadIDCardDiv1 IDCardBack">
+		    	<div  class="uploadIDCardDiv2">
+		    		<span>身份证反面</span>		    		
+		    	</div>
+				<input type="file" class="uploadIDCardInput"/>
+		    </div>
+		    
+		    <!--添加收费按钮-->
+		    <div class="chargeDiv">
+		    	<form action="" method="post">
+			    	<button type="submit" class="chargeBtn">添加收费</button>
+			    </form>
+		    </div>
+		    
+	</body>
+
+</html>

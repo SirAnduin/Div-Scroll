@@ -1,0 +1,110 @@
+@import url("common.css");
+
+
+/*已收费/未收费*/
+/*已收费/未收费div*/
+.statusChangeDiv{
+	margin-top: 12%;
+}
+/*已收费/未收费按钮*/
+.statusChangeBtn {
+	display: block;
+	width: 50%;
+	/*border: solid red 1px;*/
+	border: solid 1px rgb(230,230,230);
+	text-align: center;
+	float: left;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+/*已收费/未收费文字*/
+.statusChangeWord {
+	color: rgb(102,102,102);
+	font-size: larger;
+}
+
+
+/*查询框*/
+/*input查询框*/
+#searchInputDiv {
+	/*border: solid red 1px;*/
+	float: left;
+	margin-top: 5%;
+	width: 60%;
+	border-radius: 100px;
+	margin-left: 5%;
+}
+/*查询按钮*/
+#searchSubmit {
+	/*border: solid red 1px;*/
+	float: left;
+	margin-top: 5%;
+	widows: 30%;
+	background-color: rgb(61,217,204);
+	width: 30%;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	border-radius: 6px;
+	margin-left: 2.5%;
+	color: white;
+}
+
+
+/*查询结果列表div
+仅此div滑动，其余不动*/
+.resultDiv {
+	/*border: solid red 1px;*/
+	width: 100%;
+	margin-top: 48%;
+	display: block;
+	height: 24em;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.resultDiv > table {
+	text-align: left;
+	margin: auto;
+	width: 95%;
+	/*border: solid red 1px;*/
+	color: rgb(102,102,102);
+	font-family: "微软雅黑";
+}
+.resultDiv th {
+	font-size: larger;
+	font-weight: bolder;
+}
+.resultDiv tr {
+	vertical-align: middle;
+}
+.resultDiv th,.resultDiv td {
+	/*border: solid red 1px;*/
+	padding: 3.3% 1%;
+}
+/*查看更多*/
+.checkMore {
+	display: block;
+	float: right;
+	color: rgb(61,217,204);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+/*通用CSS*/
+
+
+/*顶部导航栏部分*/
+/*整体背景*/
+.head {
+	background-color: rgb(61,217,204);
+}
+/*文字*/
+.head h1 {
+	color: white;
+}
+/*返回按钮*/
+.head a{
+	color: white;
+}
+
+
+
+/*底部导航栏*/
+/*底部导航栏div*/
+.footNaviDiv {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+.mui-btn-border{
+	border: none;
+	-webkit-border: none;
+}
+
+/*intput查询框提示文字居中*/
+input::-ms-input-placeholder {
+	text-align: center;
+}
+input::-webkit-input-placeholder {
+	text-align: center;
+}

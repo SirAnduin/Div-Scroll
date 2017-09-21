@@ -1,0 +1,92 @@
+@import url("common.css");
+
+/*摊位号和金额整体div*/
+.detail {
+	margin-top: 5%;
+	padding: 0;
+	padding-left: 6%;
+}
+
+/*摊位号和金额标签div*/
+.detailLabel {
+	background-color: rgb(61,217,204);
+	float: left;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	width: 32%;
+	height: 3em;
+	font-size: larger;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	padding-top: 5%;
+	
+}
+/*摊位号和金额输入框div*/
+.detailInput {
+	float: left;
+	width: 55%;
+	margin-left: 3%;
+	border-radius: 10px;
+}
+/*摊位号和金额输入框input*/
+.detailInput > input {
+	height: 3.5em;
+}
+
+
+/*上传身份证*/
+/*外部含背景div*/
+.uploadIDCardDiv1 {
+	/*border: solid red 1px;*/
+	border: solid 1px rgb(230,230,230);
+	border-radius: 10px;
+	width: 95%;
+	margin: auto;
+	margin-top: 45%;
+	height: 10em;
+	background: url(../img/uploadIDCard/IDCardAddBackg.png) no-repeat center center;
+	text-align: center;
+	
+}
+/*文字div*/
+.uploadIDCardDiv2 {
+	text-align: center;
+	color: rgb(153,153,153);
+	margin-top: 35%;
+}
+/*input*/
+.uploadIDCardInput {
+	width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 30px;
+    outline: medium none;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0; 
+    float: left;
+    margin-top: -41%;
+}
+/*反面整体div*/
+.IDCardBack {
+	margin-top: 3%;
+}
+
+
+/*收费按钮div*/
+.chargeDiv {
+	margin-top: 8%;
+	text-align: center;
+}
+/*收费按钮button*/
+.chargeBtn {
+	width: 90%;
+	height: 2.4em;
+	background-color: rgb(61,217,204);
+	color: white;
+	font-size: larger;
+	font-family: "微软雅黑";
+	border-radius: 10px;
+	font-weight: bolder;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/index.css" />
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<!--顶部导航栏-->
+	<header class="mui-bar mui-bar-nav head">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="#"></a>
+	    <h1 class="mui-title">会员中心</h1>
+	</header>
+	
+	<!--中间主体内容-->
+	<div class="mui-content" id="contentDiv">
+		<!--个人信息-->
+		<div id="messageDiv">
+			<!--头像-->
+			<div id="headIconDiv">
+				<img src="img/headIcon/headIcon.png"/>			
+			</div>
+			<!--昵称-->
+			<div id="nickNameDiv">
+				<span id="nickName" style="font-weight: bolder;">John Baby</span>
+			</div>
+		</div>
+
+		<!--退出-->
+		<a href="#" id="quit">
+			<h3 style="color: rgb(102,102,102);">退出</h3>	
+		</a>
+		
+	</div>	
+	<!--底部导航栏-->
+	<div class="mui-segmented-control mui-btn-border footNaviDiv">
+	    <a class="mui-control-item mui-active" href="list.html">摊位列表</a>
+	    <a class="mui-control-item" href="#">会员中心</a>	    
+	</div>
+</body>
+</html>
